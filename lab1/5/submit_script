@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=01:00:00
+#PBS -N zbrass_job_00
+#PBS -o zbrass_job_00.out
+#PBS -e zbrass_job_00.err
+#PBS -q workq
+#PBS -A loni_cyen405
+#PBS -m e
+#PBS -N zbrasseaux97@gmail.com
+
+ module load matlab/r2017a
+ work="/home/zbrass/lab1/code"
+ MATLABFILE='test_script'
+
+ cd $work
+ matlab -logfile ./ml_output.txt -nodisplay -nosplash -nodesktop -r $MATLABFILE
