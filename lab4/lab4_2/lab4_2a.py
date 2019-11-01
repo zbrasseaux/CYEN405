@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-lab 4: create key pair
+lab 4: create bucket
 """
 import boto3
 from botocore.exceptions import ClientError
