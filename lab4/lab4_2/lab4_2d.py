@@ -7,7 +7,7 @@ import boto3
 import botocore
 import logging
 
-s3 = boto3.client('s3')
+s3 = boto3.resource('s3')
 
 filename="lab4_2a.py"
 key = "new_" + filename
