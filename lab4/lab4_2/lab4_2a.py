@@ -18,5 +18,5 @@ def create_bucket(bucket_name, region=None):
     except ClientError as e:
         print(e)
 
-create_bucket('zpb004lab42buc', region='us-west-1')
+create_bucket('zpb004lab42bucket', region='us-west-1')
 
