@@ -2,7 +2,7 @@
 	
 	<property>
 		<name>fs.default.name</name>
-		<value>hdfs://drozm:9000</value>
+		<value>hdfs://zpb004_lab5:9000</value>
 	</property>
-	
+
 </configuration>
